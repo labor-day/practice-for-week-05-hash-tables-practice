@@ -29,6 +29,8 @@ its sha256 hash as an integer.
 Example: `hash('ABC')` will calculate the `sha256('ABC')`, then convert
 the first 8 characters to the integer `3050570844`.
 
+b5d4045c   3050570844
+
 > Hint: The `sha256` function returns a string containing 64 hexadecimal
 > characters. How can you convert the first 8 characters of that string into
 > an integer?
